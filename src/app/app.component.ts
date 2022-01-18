@@ -19,9 +19,9 @@ export class AppComponent {
     this.title = this.title.toUpperCase();
   }
 
-  addItem(what: HTMLInputElement) {
-    this.topics = [what.value, ...this.topics];
-    what.value = '';
-    what.focus();
-  }
+  // addItem(what: HTMLInputElement) {
+  //   this.topics = [what.value, ...this.topics];
+  //   what.value = '';
+  //   what.focus();
+  // }
 }
